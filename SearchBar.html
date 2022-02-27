@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Search.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="parent">
+            <div id="headerBar" class="headerBar">
+              <div class="pageTitle">GENIAPES</div>
+            </div>
+           
+            <div id="content" class="content">
+                <center> <h2>The BEST FREE STOCK IMAGES.</center></h2>
+            </div>
+            <div class="mainContent">
+            <div id="search" class="search">
+              <div class="box">
+
+             <input type="checkbox" id="check">
+             <div class="search-box">
+               <input type="text" placeholder="Search For Free Photos">
+               <label for="check" class="icon">
+                 <i class="fas fa-search"></i>
+               </label>
+               </div>
+             </div>
+            
+
+            
+              </div>
+            </div>
+              
+          </div>
+         
+          <script language="javascript" type="text/javascript">
+              // When the user scrolls the page, execute myFunction
+window.onscroll = function() {
+  myFunction()
+};
+
+// Get the header
+var search = document.getElementById("search");
+
+var headerBar = document.getElementById("headerBar");
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > 150) {
+  	search.classList.add("sticky");
+  	
+  	headerBar.classList.add("downShadow");
+  } else {
+  	search.classList.remove("sticky");
+  	
+  	headerBar.classList.remove("downShadow");
+  }
+}
+          </script>
+
+          
+    </body>
+</html>

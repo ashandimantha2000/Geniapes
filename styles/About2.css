@@ -1,0 +1,61 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    margin: 0;
+  }
+
+
+
+  .container{
+      text-align: center;
+  }
+
+  .sub_container{
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+  }
+
+  .team{
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    box-sizing: border-box;
+
+  }
+
+  .team img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .name{
+    padding: 12px;
+    font-weight: lighter;
+    font-size: 16px;
+
+  }
+
+  
+  .about-container {
+    padding: 100px;
+    text-align: center;
+    color: blue;
+  }
+
+  .p-container{
+      width: 70%;
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+
+@media screen and (max-width: 600px){
+  .team{
+    max-width: 100%;
+  }
+
+
+}
+  
+  
